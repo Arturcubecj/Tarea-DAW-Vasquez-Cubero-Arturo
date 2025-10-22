@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estructura Semántica en HTML5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header, nav, main, article, section, aside, footer {
+      border: 2px solid #b30000;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    header, footer {
+      background-color: #f9c6b0;
+    }
+
+    nav {
+      background-color: #d8f7aa;
+    }
+
+    main {
+      background-color: #fcd9c2;
+      display: flex;
+    }
+
+    article {
+      background-color: #e0e0e0;
+      flex: 3;
+      margin-right: 10px;
+      padding: 10px;
+    }
+
+    section {
+      background-color: #c4f3ff;
+      border: 2px solid #0077b6;
+      margin: 5px 0;
+      padding: 10px;
+    }
+
+    aside {
+      background-color: #d3d3d3;
+      flex: 1;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Encabezado del sitio</h1>
+    <nav>
+      <p>Barra de navegación principal</p>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Artículo principal</h2>
+      <section>
+        <h3>Sección 1</h3>
+        <p>Contenido de la sección 1.</p>
+      </section>
+      <section>
+        <h3>Sección 2</h3>
+        <p>Contenido de la sección 2.</p>
+      </section>
+      <section>
+        <h3>Sección 3</h3>
+        <p>Contenido de la sección 3.</p>
+      </section>
+    </article>
+
+    <aside>
+      <h3>Contenido adicional</h3>
+      <p>Información complementaria o enlaces relacionados.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Pie de página</p>
+    <nav>
+      <p>Navegación secundaria</p>
+    </nav>
+  </footer>
+
+</body>
+</html>
